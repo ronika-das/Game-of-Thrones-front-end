@@ -1,0 +1,248 @@
+<html>
+    <head>
+        
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+    body{
+    
+	
+    background-repeat:no-repeat;
+	background-size:600px 730px;
+	image-rendering:pixelated;
+	  
+}
+@font-face {
+    font-family: Enchanted Land;
+    src: url(Enchanted Land.woff);
+}
+
+img2{
+	image-rendering:pixelated;
+}
+#colorLayer{
+    height: 100%;
+    width: 100%;
+    background-color:#feda88;
+}
+
+#locator1{
+    position: absolute;
+    top:30%;
+    left: 20%;
+   animation: move 5s infinite;
+}
+#locator2{
+    position: absolute;
+    top:20%;
+    left: 10%;
+   animation: move 5s infinite;
+}
+#locator3{
+    position: absolute;
+    top:60%;
+    left: 25%;
+   animation: move 5s infinite;
+}
+#locator4{
+    position: absolute;
+    top:70%;
+    left: 20%;
+   animation: move 5s infinite;
+}
+#locator5{
+    position: absolute;
+    top:80%;
+    left: 10%;
+   animation: move 5s infinite;
+}
+#locator6{
+    position: absolute;
+    top:89%;
+    left: 25%;
+   animation: move 5s infinite;
+}
+#locator7{
+    position: absolute;
+    top:95%;
+    left: 10%;
+   animation: move 5s infinite;
+}
+#locator8{
+    position: absolute;
+    top:97%;
+    left: 22%;
+   animation: move 5s infinite;
+}
+#locator9{
+    position: absolute;
+    top:80%;
+    left: 24%;
+   animation: move 5s infinite;
+}
+#locator10{
+    position: absolute;
+    top:60%;
+    left:8%;
+   animation: move 5s infinite;
+}
+
+@-webkit-keyframes move{
+    0%{margin-top: -80px;}
+    10%{margin-top: -90px;}
+    20%{margin-top: -80px;}
+    30%{margin-top: -90px;}
+    40%{margin-top: -80px;}
+    50%{margin-top: -90px;
+       
+    }
+    60%{margin-top: -80px;}
+    70%{margin-top: -90px;}
+    80%{margin-top: -80px;}
+    90%{margin-top: -90px;}
+    100%{margin-top: -80px;}
+}
+.parent {display: block;position: relative;float: left;line-height: 30px;background-color: black ; }
+.parent a{margin: 20px;color: #FFFFFF;text-decoration: none;font-size:20px;}
+.parent:hover > ul {display:block;position:absolute;}
+.child {display: none;}
+.child li {background-color: white; width:100%;}
+.child li a{color: black;}
+ul{list-style: none;margin: 0;padding: 0px; min-width:10em;}
+ul ul ul{left: 100%;top: 0;margin-left:1px;}
+li:hover {background-color: #6d6767; color:black; }
+.parent li:hover {background-color: #e5dcdc; }
+.expand{font-size:14px;float:right;margin-right:5px;}
+
+.mySlides {display: none;
+
+	position:absolute;}
+.mySlides w3-display-container w3-center{
+	position:absolute;
+	}
+	
+.intro {
+	position:absolute;
+	margin-top:200px;
+	margin-left:730px;
+	
+	width:590px;
+	height:400px;
+	padding:10px 10px 10px 10px;
+}
+</style>
+</head>
+
+<body>
+<!--Body --> 
+
+<img id='img1' src='westeros.jpg' style="height:720px; width:650px; margin-top:40px;margin-left:20px; position:absolute">
+
+<div class="top" style="width:100%; height:40px; border:1px solid black; position:absolute; background-color:black">
+<ul id="menu">
+	<li class="parent" style="margin-left:50px"><a href="got.html">Home</a></li>
+	<li class="parent"><a href="btechnotes.html">Map</a></li>
+	<li class="parent"><a href="#">The Citadel</a>
+	<ul class="child">
+		<li class="parent" style="width:250px"><a href="#">Computer Science <span class="expand">&raquo;</span></a>
+			<ul class="child">
+			<li><a href="cse_ques17.html">2017</a></li>
+			<li><a href="cse_ques16.html">2016</a></li>
+			<li><a href="cse_ques15.html">2015</a></li>
+			</ul>
+		</li>
+		<li class="parent" style="width:250px"><a href="#">Information Technology <span class="expand">&raquo;</span></a>
+			<ul class="child">
+			<li><a href="it_ques17.html">2017</a></li>
+			<li><a href="it_ques16.html">2016</a></li>
+			<li><a href="it_ques15.html">2015</a></li>
+			</ul>
+		</li>
+		<li class="parent" style="width:250px"><a href="#">ECE <span class="expand">&raquo;</span></a>
+			<ul class="child">
+			<li><a href="ece_ques17.html">2017</a></li>
+			<li><a href="ece_ques16.html">2016</a></li>
+			<li><a href="ece_ques15.html">2015</a></li>
+			</ul>
+		</li>
+		<li class="parent" style="width:250px"><a href="#">Mechanical<span class="expand">&raquo;</span></a>
+			<ul class="child">
+			<li><a href="mae_ques17.html">2017</a></li>
+			<li><a href="mae_ques16.html">2016</a></li>
+			<li><a href="mae_ques15.html">2015</a></li>
+			</ul>
+		</li>		
+	</ul>
+	</li>
+	<li class="parent"><a href="#">History</a>
+	<ul class="child" style="width:250px">			
+		<li><a href="cse_prac.html" style="width:350px">Aegon's Conquest</a></li>
+		<li><a href="it_prac.html" style="width:350px">Robert's Rebellion</a></li>
+		<li><a href="it_prac.html" style="width:350px">Blackwater Bay</a></li>
+		<li><a href="#"style="width:350px">The War of Five Kings</a></li>
+		<li><a href="#" style="width:350px">Hardhome</a></li>
+		<li><a href="it_prac.html" style="width:350px">Battle of The Bastards</a></li>
+		
+	</ul>
+	</li>
+	<li class="parent"><a href="#">Send a Raven</a>
+	<ul class="child">			
+		<li><a href="#">Lesson Plan</a></li>
+		<li><a href="#">Syllabus</a></li>
+		<li><a href="#">References</a></li>
+		<li><a href="#">Interviews</a></li>
+		<li><a href="#">Tips and Tricks</a></li>
+	</ul>
+	</li>
+	<li class="parent"><a href="about.html">WORLD</a></li>
+	<li class="parent"><a href="team.html">News</a></li>
+	<li class="parent"><a href="contact.html">Contact Us</a></li>
+	<li class="parent"><a href="contribute.php">Contribute</a></li>
+</ul>
+</div>
+			
+			
+			
+			
+	
+			
+            <div id="locator1">
+                <a href="winterfell.html" style="color:white"> <img id='img2' src="locator.png" height="30px" width="30px"/>Winterfell</a>
+            </div>
+			<div id="locator2">
+                <a href=# style="color:white"> <img id='img2' src="locator.png" height="30px" width="30px";/>Nightswatch</a>
+            </div>
+			<div id="locator3">
+                <a href=# style="color:white"> <img id='img2' src="locator.png" height="30px" width="30px";/>Eerie</a>
+            </div>
+			<div id="locator4">
+                <a href=# style="color:white"> <img id='img2' src="locator.png" height="30px" width="30px";/>Tully</a>
+            </div>
+			<div id="locator5">
+                <a href=# style="color:white"> <img id='img2' src="locator.png" height="30px" width="30px";/>Casterly Rock</a>
+            </div>
+			<div id="locator6">
+                <a href=# style="color:white"> <img id='img2' src="locator.png" height="30px" width="30px";/>Kings Landing</a>
+            </div>
+			<div id="locator7">
+                <a href=# style="color:white"> <img id='img2' src="locator.png" height="30px" width="30px";/>Highgarden</a>
+            </div>
+			<div id="locator8">
+                <a href=# style="color:white"> <img id='img2' src="locator.png" height="30px" width="30px";/>Dorne</a>
+            </div>
+			<div id="locator9">
+                <a href=# style="color:white"> <img id='img2' src="locator.png" height="30px" width="30px";/>Storm's End</a>
+            </div>
+			<div id="locator10">
+                <a href=# style="color:white"> <img id='img2' src="locator.png" height="30px" width="30px";/>Iron Islands</a>
+            </div>
+			
+
+			
+        
+</body>                                         
+</html>
