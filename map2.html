@@ -1,0 +1,241 @@
+<!DOCTYPE.html>
+    <head>
+        
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+    body{
+    
+	
+    background-repeat:no-repeat;
+	background-size:600px 730px;
+	image-rendering:pixelated;
+	  
+}
+@font-face {
+    font-family: Enchanted Land;
+    src: url(Enchanted Land.woff);
+}
+
+img2{
+	image-rendering:pixelated;
+}
+#colorLayer{
+    height: 100%;
+    width: 100%;
+    background-color:#feda88;
+}
+
+#locator1{
+    position: absolute;
+    top:30%;
+    left: 20%;
+   animation: move 5s infinite;
+}
+#locator2{
+    position: absolute;
+    top:20%;
+    left: 10%;
+   animation: move 5s infinite;
+}
+#locator3{
+    position: absolute;
+    top:60%;
+    left: 25%;
+   animation: move 5s infinite;
+}
+#locator4{
+    position: absolute;
+    top:70%;
+    left: 20%;
+   animation: move 5s infinite;
+}
+#locator5{
+    position: absolute;
+    top:80%;
+    left: 10%;
+   animation: move 5s infinite;
+}
+#locator6{
+    position: absolute;
+    top:89%;
+    left: 25%;
+   animation: move 5s infinite;
+}
+#locator7{
+    position: absolute;
+    top:95%;
+    left: 10%;
+   animation: move 5s infinite;
+}
+#locator8{
+    position: absolute;
+    top:97%;
+    left: 22%;
+   animation: move 5s infinite;
+}
+#locator9{
+    position: absolute;
+    top:80%;
+    left: 24%;
+   animation: move 5s infinite;
+}
+#locator10{
+    position: absolute;
+    top:60%;
+    left:8%;
+   animation: move 5s infinite;
+}
+
+@-webkit-keyframes move{
+    0%{margin-top: -80px;}
+    10%{margin-top: -90px;}
+    20%{margin-top: -80px;}
+    30%{margin-top: -90px;}
+    40%{margin-top: -80px;}
+    50%{margin-top: -90px;
+       
+    }
+    60%{margin-top: -80px;}
+    70%{margin-top: -90px;}
+    80%{margin-top: -80px;}
+    90%{margin-top: -90px;}
+    100%{margin-top: -80px;}
+}
+.parent {display: block;position: relative;float: left;line-height: 30px;background-color: black ; }
+.parent a{margin: 20px;color: #FFFFFF;text-decoration: none;font-size:20px;}
+.parent:hover > ul {display:block;position:absolute;}
+.child {display: none;}
+.child li {background-color: white; width:100%;}
+.child li a{color: black;}
+ul{list-style: none;margin: 0;padding: 0px; min-width:10em;}
+ul ul ul{left: 100%;top: 0;margin-left:1px;}
+li:hover {background-color: #6d6767; color:black; }
+.parent li:hover {background-color: #e5dcdc; }
+.expand{font-size:14px;float:right;margin-right:5px;}
+
+.mySlides {display: none;
+
+	position:absolute;}
+.mySlides w3-display-container w3-center{
+	position:absolute;
+	}
+
+	
+	
+	
+</style>
+</head>
+
+<body>
+
+
+<img id='img3' src='scroll.png' style="height:1000px; width:920px; margin-top:40px;margin-left:1400px; position:absolute">
+<p style="font-family:georgia; color:maroon; font-size:25px; margin-left:1500px; position:absolute; margin-top:200px"><i> 
+			Essos is an immense landmass located to the east of Westeros, extending into the<br>
+			far east of the known world. <br>
+			The Free Cities are located on its north-western shores, with the Dothraki sea located deep in the continental  <br>
+			interior and the cities of the Bay of Dragons on the south coast. <br>
+			The continent extends far to the east, around the Jade Sea, to the distant and fabled lands of Asshai and the <br>
+			 Shadow. Essos climate is temperate in the northern and western portions, and subtropical in the southern & eastern  <br>
+			portions. Rainfall generally decreases as one moves eastward <br>
+
+in Essos.The extreme eastern end of the continent has not been fully mapped.<br>
+ Westeros's landmass is much longer from north to south, extending from the deserts of Dorne to the polar regions north of the Wall, but east-to-west travel <br>is much shorter.<br>
+ </i></p>
+<div class="top" style="width:80%; height:40px; position:absolute; margin-top:10px">
+<ul id="menu">
+	<li class="parent" style="margin-left:700px"><a href="got.html">HOME</a></li>
+	<li class="parent"><a href="#">MAP</a>
+	<ul class="child">
+		<li class="parent" style="width:250px"><a href="map.html">Westeros <span class="expand">&raquo;</span></a>	</li>
+		<li class="parent" style="width:250px"><a href="map2.html">Essos <span class="expand">&raquo;</span></a></li>
+	</ul>
+	</li>
+	<li class="parent"><a href="#">THE HOUSES</a>
+	<ul class="child">
+		<li class="parent" style="width:270px"><a href="housestark.html">HOUSE STARK<span class="expand">&raquo;</span></a>	</li>
+		<li class="parent" style="width:270px"><a href="#">HOUSE LANNISTERS <span class="expand">&raquo;</span></a></li>
+		<li class="parent" style="width:270px"><a href="#">HOUSE TARGERYAN<span class="expand">&raquo;</span></a>	</li>
+		<li class="parent" style="width:270px"><a href="#">HOUSE TYRELL <span class="expand">&raquo;</span></a></li>
+		<li class="parent" style="width:270px"><a href="#">HOUSE MARTELL<span class="expand">&raquo;</span></a>	</li>
+		<li class="parent" style="width:270px"><a href="#">HOUSE TULLY <span class="expand">&raquo;</span></a></li>
+		<li class="parent" style="width:270px"><a href="#">HOUSE ARRYN<span class="expand">&raquo;</span></a>	</li>
+		<li class="parent" style="width:270px"><a href="#">HOUSE BARATHEON<span class="expand">&raquo;</span></a></li>
+		<li class="parent" style="width:270px"><a href="#">HOUSE GREYJOY<span class="expand">&raquo;</span></a>	</li>
+		<li class="parent" style="width:270px"><a href="#">HOUSE FREY <span class="expand">&raquo;</span></a></li>
+		<li class="parent" style="width:270px"><a href="#">THE NORTH<span class="expand">&raquo;</span></a>	</li>
+		<li class="parent" style="width:270px"><a href="#">THE SOUTH <span class="expand">&raquo;</span></a></li>
+		
+	</ul>
+	</li>
+	<li class="parent"><a href="#">SEASONS</a>
+	<ul class="child">
+		<li class="parent" style="width:250px"><a href="season1.html">Season 1 <span class="expand">&raquo;</span></a>	</li>
+		<li class="parent" style="width:250px"><a href="#">Season 2 <span class="expand">&raquo;</span></a></li>
+		<li class="parent" style="width:250px"><a href="#">Season 3 <span class="expand">&raquo;</span></a></li>
+		<li class="parent" style="width:250px"><a href="#">Season 4 <span class="expand">&raquo;</span></a></li>
+		<li class="parent" style="width:250px"><a href="#">Season 5 <span class="expand">&raquo;</span></a></li>
+		<li class="parent" style="width:250px"><a href="#">Season 6 <span class="expand">&raquo;</span></a></li>
+		<li class="parent" style="width:250px"><a href="#">Season 7 <span class="expand">&raquo;</span></a></li>
+		
+	</ul>
+	</li>
+	<li class="parent"><a href="#">HISTORY</a>
+	<ul class="child" style="width:350px">			
+		<li><a href="#" style="width:350px">Aegon's Conquest</a></li>
+		<li><a href="#" style="width:350px">Robert's Rebellion</a></li>
+		<li><a href="#" style="width:350px">Blackwater Bay</a></li>
+		<li><a href="#"style="width:350px">The War of Five Kings</a></li>
+		<li><a href="#" style="width:350px">Hardhome</a></li>
+		<li><a href="#" style="width:350px">Battle of The Bastards</a></li>
+		<li><a href="#" style="width:350px">Battle of Meereen</a></li>
+		
+	</ul>
+	</li>
+	<li class="parent"><a href="#">Send a Raven</a>
+	<ul class="child">			
+		<li><a href="#">Contact US</a></li>
+		<li><a href="#">Contribute</a></li>
+		<li><a href="#">Shop</a></li>
+		<li><a href="#">Interviews</a></li>
+	
+	</ul>
+	</li>
+
+</ul>
+</div>
+
+		
+			
+			
+			
+<img src="essos.png" usemap="#image-map" style="">
+
+<map name="image-map" style="position:absolute">
+    <area target="_blank" alt="tyrosh" title="tyrosh" href="" coords="62,584,26" shape="circle">
+    <area target="" alt="newghis" title="newghis" href="" coords="1075,975,158" shape="circle">
+    <area target="" alt="astapor" title="astapor" href="" coords="966,811,23" shape="circle">
+    <area target="" alt="volantis" title="volantis" href="" coords="422,713,135" shape="circle">
+    <area target="" alt="dothraki" title="dothraki" href="" coords="956,211,1110,184,1359,125,1310,160,1359,320,1302,566,984,636,832,570,600,586,542,214,576,181,622,158,653,132,670,151,682,139,760,133,816,122,850,200,888,181,928,205,942,210,951,210,951,211" shape="poly">
+    <area target="" alt="yunkai" title="yunkai" href="" coords="978,674,1023,740" shape="rect">
+    <area target="" alt="mereen" title="mereen" href="" coords="1084,668,1016,629" shape="rect">
+    <area target="" alt="lhazar" title="lhazar" href="" coords="1236,659,97" shape="circle">
+    <area target="" alt="matarys" title="matarys" href="" coords="690,717,725,714,737,681,689,700,682,718" shape="poly">
+    <area target="" alt="lys" title="lys" href="" coords="131,719,61" shape="circle">
+    <area target="" alt="myr" title="myr" href="" coords="179,562,36" shape="circle">
+    <area target="" alt="bravos" title="bravos" href="" coords="128,139,122" shape="circle">
+    <area target="" alt="pentos" title="pentos" href="" coords="154,376,107" shape="circle">
+    <area target="" alt="norvos" title="norvos" href="" coords="344,268,118" shape="circle">
+    <area target="" alt="omber" title="omber" href="" coords="951,157,58" shape="circle">
+</map>
+
+			
+			
+        
+</body>                                         
+</html>
